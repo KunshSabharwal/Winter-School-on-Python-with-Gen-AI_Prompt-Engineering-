@@ -20,7 +20,7 @@ class AgentOrchestrator:
     def __init__(self, api_key: str):
         self.api_key = api_key
         genai.configure(api_key=api_key)
-        self.routing_model = genai.GenerativeModel("gemini-2.5-flash")
+        self.routing_model = genai.GenerativeModel("gemini-2.5-lite")
 
         # ============================================
         # REGISTER AGENTS HERE
