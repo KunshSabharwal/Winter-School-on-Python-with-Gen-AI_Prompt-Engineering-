@@ -87,7 +87,7 @@ Every agent must:
 - Implement `process()` - handle the main logic
 - Return an `AgentResult` with success, data, and optionally next_agent
 
-### This currently has 2 agents:
+### This currently has 3 agents: (3rd Agent Data Visualizer created and added successfully!)
 
 Available Agents -
 
@@ -104,7 +104,6 @@ Available Agents -
   - Format responses with markdown
   - Handle conversational queries
 
-- 3rd Agent Data Visualizer created and added successfully!
 - DataVisualizer
   - Purpose: Generate plots/charts from CSV or numerical outputs
   - Features:
